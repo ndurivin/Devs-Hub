@@ -40,3 +40,26 @@ a{
     display: flex;
     justify-content: center
 }
+
+/* Search box section  */
+Form{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+Form > input{
+    width: 500px;
+    height: 35px;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 16px;  
+}
+
+.btn-search{
+    padding: 5px 15px;
+    border-radius: 5px;
+    color: #ffff;
+    background-color: #800000;
+    border: none;
+}
+
