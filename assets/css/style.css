@@ -210,6 +210,35 @@ form > input{
     border: none;
 }
 
+/* The footer section  */
+#footer{
+    background-color: #800000;
+    height: 15vh;
+    color: #ffff;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.hr{
+    width: 42%;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.socialMedia{
+   text-align: center;
+}
+
+#social{
+    margin-right: 25px;
+    cursor: pointer;
+}
+
+.copyright{
+    text-align: center;
+}
+
 .reviews{
     margin-right: 100px;
     color: #800000;
