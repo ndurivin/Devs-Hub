@@ -115,3 +115,30 @@ width: 230px;
     font-size: 16px;
     cursor: pointer;
 }
+
+#userNames{
+    align-items: center;
+    justify-content: center;
+    display: none;
+    width: 280px;
+    height: 27vh;
+    overflow-y: scroll;
+    margin-bottom: 30px;
+}
+
+#userProfiles{
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    min-height: 35vh;
+    background-color: #800000;
+    border-radius: 15px;
+}
+
+.profileDetails{
+    color: #ffff;
+    padding-top: 70px;
+    padding-right: 100px;
+    font-weight: 900;
+}
+
