@@ -3,7 +3,7 @@
 
 ## Screenshot
 
- [image](/assets/img/main.png)
+ [image](./assets/img/main.png)
 
  ## Table of Content
  - [Description](#description)
