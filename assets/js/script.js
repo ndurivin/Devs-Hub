@@ -64,7 +64,6 @@ function  sendComment(comment) {
   let pageLoader = () => {
     getNames()
     displayDiv()
-    showOneProfile()
     getProfiles()
 }
 pageLoader();
