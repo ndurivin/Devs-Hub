@@ -1,4 +1,9 @@
 
+// Global variables 
+const url = '/db.json'
+// const url = 'https://api.github.com/users'
+
+
 const usersDiv = document.getElementById('btnToggle').addEventListener('click', displayDiv)
 function displayDiv(){
     if (userNames.style.display === 'none') {
@@ -7,4 +12,27 @@ function displayDiv(){
     } else {
         userNames.style.display = 'none';
     }
+}
+
+// Developer Names Section 
+function getNames(){
+    fetch(url)
+    .then(res => res.json())
+    .then(devs => {
+        devs.forEach((dev) => {
+            let ul = document.getElementById('users')
+            let li = document.createElement('li')
+            li.className = 'users-list'
+            li.innerText = dev.login
+            ul.appendChild(li)
+            li.addEventListener('click', () => {
+                let div = document.getElementById('devName')
+                let h3 = document.querySelector('.firstName')
+                h3.innerText = (`Name: [${dev.login}]
+                Specialization: (${dev.language_id})`)
+                div.appendChild(h3)
+            })
+        })
+    })
+    .catch((err) => err)
 }
