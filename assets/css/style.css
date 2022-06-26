@@ -63,3 +63,55 @@ Form > input{
     border: none;
 }
 
+/* Search box section  */
+Form{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+Form > input{
+    width: 500px;
+    height: 35px;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 16px;  
+}
+
+.btn-search{
+    padding: 5px 15px;
+    border-radius: 5px;
+    color: #ffff;
+    background-color: #800000;
+    border: none;
+}
+
+/* Developers' profiles area  */
+.topContent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 60px;
+    gap: 20px;
+}
+
+#users li:hover{
+cursor: pointer;
+background-color: #800000;
+color: #ffff;
+width: 230px;
+    
+}
+
+#btnToggle{
+    padding: 15px 25px;
+    border-radius: 6px;
+    background-color: #800000;
+    border: none;
+    color: #ffff;
+    font-weight: 900;
+    margin-bottom: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}

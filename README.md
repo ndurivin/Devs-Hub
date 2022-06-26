@@ -23,7 +23,6 @@
 1. A user can view the list of available developers.
 2. A user can click on an individual developer to view the profile details on experience and areas of expertise.
 3. A user can write a review on either the application or specific developer.
-4. A user can view other reviews on the application.
 
  ###  Requirements
  * Access to  a computer or any other garget
