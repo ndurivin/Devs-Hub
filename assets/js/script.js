@@ -46,3 +46,26 @@ document.addEventListener("DOMContentLoaded", () => {
     form.reset()
   })
 })
+
+function  sendComment(comment) {
+    let li = document.createElement("li")
+    li.textContent = `${comment} `
+    let liBtn = document.createElement("button")
+    liBtn.addEventListener('click', delBtn)
+    // liBtn.textContent = "x"
+    li.appendChild(liBtn)
+    document.querySelector("#reviews").appendChild(li)
+  }
+
+  function delBtn(e){
+    e.target.parentNode.remove()
+  }
+
+let pageLoader = () => {
+    getNames()
+    displayDiv()
+    showOneProfile()
+    getProfiles()
+}
+pageLoader();
+
