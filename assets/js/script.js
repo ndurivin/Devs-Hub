@@ -1,6 +1,6 @@
 
 // Global variables 
-const url = '/db.json'
+const url = "/db.json"
 // const url = 'https://api.github.com/users'
 
 
@@ -36,3 +36,13 @@ function getNames(){
     })
     .catch((err) => err)
 }
+
+// Function for the form section 
+document.addEventListener("DOMContentLoaded", () => {
+    let form = document.querySelector("form")
+    form.addEventListener("submit", (e) => {
+    e.preventDefault();
+    sendComment(document.getElementById('comment').value)
+    form.reset()
+  })
+})
