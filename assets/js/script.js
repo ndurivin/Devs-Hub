@@ -1,7 +1,7 @@
 
 // Global variables 
-// const url = "/db.json"
-const url = 'https://api.github.com/users'
+const url = "/db.json"
+// const url = 'https://api.github.com/users'
 
 
 const usersDiv = document.getElementById('btnToggle').addEventListener('click', displayDiv)
