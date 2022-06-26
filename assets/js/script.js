@@ -61,11 +61,5 @@ function  sendComment(comment) {
     e.target.parentNode.remove()
   }
 
-let pageLoader = () => {
-    getNames()
-    displayDiv()
-    showOneProfile()
-    getProfiles()
-}
-pageLoader();
+
 
