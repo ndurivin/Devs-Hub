@@ -29,3 +29,14 @@ a{
     margin: auto;
 }
 
+/* Header & Navbar section  */
+#header{
+    background-color: #800000;
+    color: #ffff;
+    height: 6vh;
+}
+
+#navbar{
+    display: flex;
+    justify-content: center
+}
