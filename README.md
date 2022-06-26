@@ -37,7 +37,7 @@
  ****
 
 ### Live Link
-- Click this link to view the live application https://ndurivin.github.io/Developers-Hub/
+- Click this link to view the live application https://github.com/ndurivin/Devs-Hub
 
 ### Technology  Used
 * HTML - which was used to develope the structure off the pages.
@@ -71,3 +71,6 @@ SOFTWARE.
 ## Author Info
 Contributor -
 [Vincent Nduri](https://github.com/ndurivin)
+## Twitter: https://twitter.com/vinnduri
+## LinkedIn: https://www.linkedin.com/in/vincent-nduri-8b2228b5/
+
