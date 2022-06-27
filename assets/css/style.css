@@ -130,14 +130,14 @@ width: 230px;
     display: flex;
     justify-content: space-between;
     width: 500px;
-    min-height: 35vh;
+    min-height: 40vh;
     background-color: #800000;
     border-radius: 15px;
 }
 
 .profileDetails{
     color: #ffff;
-    padding-top: 30px;
+    padding-top: 20px;
     padding-right: 100px;
     font-weight: 900;
 }
@@ -176,6 +176,7 @@ width: 230px;
 
  .firstName{
     font-size: 17px;
+    text-transform: capitalize;
 }
 
 #expertise{

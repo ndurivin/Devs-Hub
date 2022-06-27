@@ -1,7 +1,6 @@
 
 // Global variables 
-const url = "/db.json"
-// const url = 'https://api.github.com/users'
+const url = 'https://fast-cliffs-48484.herokuapp.com/devs'
 
 
 const usersDiv = document.getElementById('btnToggle').addEventListener('click', displayDiv)
@@ -36,8 +35,8 @@ function getNames(){
                 h5.innerText = (`Follows: ${dev.following}
                 Followers: ${dev.followers}`)
                 let h3 = document.querySelector('.firstName')
-                h3.innerText = (`Name: [${dev.login}]
-                Specialization: (${dev.language_id})`)
+                h3.innerText = (`Name: ${dev.login}
+                Specialization: ${dev.language_id}`)
                 div.appendChild(h3)
                 div1.appendChild(h4)
                 div2.appendChild(h5)
