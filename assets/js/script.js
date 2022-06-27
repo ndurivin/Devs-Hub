@@ -1,7 +1,7 @@
 
 // Global variables 
-//const url = "/db.json"
-const url = 'https://api.github.com/users'
+const url = "/db.json"
+// const url = 'https://api.github.com/users'
 
 
 const usersDiv = document.getElementById('btnToggle').addEventListener('click', displayDiv)
@@ -27,10 +27,20 @@ function getNames(){
             ul.appendChild(li)
             li.addEventListener('click', () => {
                 let div = document.getElementById('devName')
+                let div1 = document.getElementById('devExperience')
+                let h4 = document.querySelector('.expertise')
+                h4.innerText = (`Experience: ${dev.experience} years`)
+
+                let div2 = document.getElementById('devFollowing')
+                let h5 = document.querySelector('.follows')
+                h5.innerText = (`Follows: ${dev.following}
+                Followers: ${dev.followers}`)
                 let h3 = document.querySelector('.firstName')
                 h3.innerText = (`Name: [${dev.login}]
                 Specialization: (${dev.language_id})`)
                 div.appendChild(h3)
+                div1.appendChild(h4)
+                div2.appendChild(h5)
             })
         })
     })
