@@ -3,7 +3,7 @@
 
 ## Screenshot
 
- [image](/assets/img/main.png)
+ [image](./assets/img/main.png)
 
  ## Table of Content
  - [Description](#description)
@@ -42,7 +42,6 @@
 * HTML - which was used to develope the structure off the pages.
 * CSS - which was used to style the User Interface.
 * JAVASCRIPT - which was used for DOM(Document Object Model) manipulation scripts and interactivity.
-[Go Back to the top](#Developers'-Hub-Web-app)
 
 ## Known Bugs
 * Error appending individual developer profile details to the DOM from the API.
