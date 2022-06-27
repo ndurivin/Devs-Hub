@@ -3,7 +3,7 @@
 
 ## Screenshot
 
- [image](./assets/img/main.png)
+ ![Landing page picture](./assets/img/main.png)
 
  ## Table of Content
  - [Description](#description)
@@ -41,10 +41,10 @@
 ### Technology  Used
 * HTML - which was used to develope the structure off the pages.
 * CSS - which was used to style the User Interface.
-* JAVASCRIPT - which was used for DOM(Document Object Model) manipulation scripts and interactivity.
+* JAVASCRIPT - which was used for DOM(Document Object Model) manipulation scripts and app interactivity.
 
 ## Known Bugs
-* Error appending individual developer profile details to the DOM from the API.
+* There were no known bugs in developing the application as the possible challenges were addressed.
 
 ## License
 MIT License
@@ -64,7 +64,6 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-[Go Back to the top](#Developers'-Hub-Web-app)
 
 ## Author Info
 Contributor -
