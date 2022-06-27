@@ -1,4 +1,5 @@
-[
+{
+  "devs":  [
     {
       "login": "mojombo",
       "id": 1,
@@ -239,3 +240,4 @@
       "following": "36"
     }
   ]
+}
